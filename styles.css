@@ -1,0 +1,28 @@
+body { background-image: url(https://static1.bigstockphoto.com/5/8/1/large1500/185240866.jpg);
+font-family: sans-serif;
+}
+h1, h2, p {text-align: center;}
+.menu { width: 80%; background-color: burlywood; margin-left: auto; margin-right: auto; 
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+max-width: 500px;
+}
+h1, h2 {
+    font-family: Impact, serif;
+}
+.established { 
+    font-style: italic;
+}
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+}
+.price {
+    text-align: right;
+    width: 25%;
+}
+.item p {
+    display: inline-block;
+}

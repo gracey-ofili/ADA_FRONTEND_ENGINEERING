@@ -1,5 +1,14 @@
 body { background-image: url(https://static1.bigstockphoto.com/5/8/1/large1500/185240866.jpg);
 font-family: sans-serif;
+padding: 20px;
+}
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+h2 {
+    font-size: 30px;
 }
 h1, h2, p {text-align: center;}
 .menu { width: 80%; background-color: burlywood; margin-left: auto; margin-right: auto; 
@@ -8,6 +17,20 @@ padding-right: 20px;
 padding-top: 20px;
 padding-bottom: 20px;
 max-width: 500px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+.botom-line {
+    margin-top: 25px;
 }
 h1, h2 {
     font-family: Impact, serif;
@@ -25,4 +48,26 @@ h1, h2 {
 }
 .item p {
     display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+/* FOOTER */
+footer {
+    font-size: 14px;
+}
+.address {
+    margin-bottom: 5px;
+}
+a {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: brown;
+}
+a:active {
+    color: brown;
 }

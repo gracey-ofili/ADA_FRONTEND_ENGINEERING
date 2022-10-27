@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <h2>Welcome</h2>
+<form action="results.html" method="GET" autocomplete="on" target="_blank">
+    <div>
+    <div>
+        <label for="name">Fullname</label>
+        <input type="text" name="name" id="name" required
+        placeholder="First name Last name" >
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"
+        value="someone@gmail.com">
+    </div>
+    <div>
+    <label for="password">Password</label>
+    <input type="password" name="Password" id="password" min="8" max="50" 
+    placeholder="Enter your password" required>
+    </div>
+    <div>
+    <label for="phone-number">Phone Number</label>
+    <input id="phone-number" name="phone-number" type="tel" placeholder="+234-012-3456-789" required/>
+    </div>
+    <div class="radio"> 
+        <p class="gender">Gender</p>
+    <input type="radio" id="gender" name="gender" value="female"/>Female <br>
+    <input type="radio" id="gender" name="gender" value="male"/>Male <br>
+    <input type="radio" id="gender" name="gender" value="others"/>Others <br>
+    </div>
+    <div class="checkbox">
+        <p class="hobbies">Hobbies</p>
+        <input type="checkbox" id="hobbies" name="hobbies" class="inline" value="singing"/>Singing <br>
+        <input type="checkbox" id="hobbies" name="hobbies" class="inline" value="dancing"/>Dancing <br>
+        <input type="checkbox" id="hobbies" name="hobbies" class="inline" value="traveling"/>Traveling <br>
+        <input type="checkbox" id="hobbies" name="hobbies" class="inline" value="eating"/>Eating <br>
+        <input type="checkbox" id="hobbies" name="hobbies" class="inline" value="watching movies"/>Watching movies <br>
+        <input type="checkbox" id="hobbies" name="hobbies" class="inline" value="reading"/>Reading <br>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+    </div>
+     
+</form>
+</body>
+</html>
